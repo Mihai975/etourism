@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Înregistrare</title>
+    <link rel="stylesheet" href="./css/register-style.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><i class="icon-search"></i><input type="text" id="search-bar" name="search" placeholder=" Căutare"></li>
+            <div class = "middle">
+                <li><a href="./index.html#acasa"><i class="icon-home i"></i> Acasă</a></li>
+                <li><a href="./index.html#acasa"><i class="icon-info"></i> Despre Noi</a></li>
+                <li><a href="./index.html#oferte"><i class="icon-heart"></i> Oferte</a></li>
+            </div>
+            <li><a href="index.html#acasa"><i class="icon-user"></i> Intră în cont</a></li>
+        </ul>
+    </nav>
+
+    <div class = "logo-band">
+        <div class ="logo-band-text">
+            <h1>Travel to Constanța</h1>
+            <h3>Cel mai mare oraș de pe litoralul românesc</h3>
+        </div>
+    </div>
+
+
+    <div class="register-container">
+        <h1>Înregistrează-te acum</h1>
+        
+        <form id="registerForm">
+
+            <div class="form-group">
+                <label for="usernameInput">Utilizator</label>
+                <br>
+                <input type="text" id="usernameInput" name="username" placeholder="nume utilizator">
+            </div>
+
+            <div class="form-group">
+                <label for="passwordInput">Parolă</label>
+                <br>
+                <input type="password" id="passwordInput" name="password" placeholder="parola">
+            </div>
+
+            <div class="form-group">
+                <br>
+                <button id="saveButton" type="button">Înregistrează-te</button>
+            </div>
+
+        </form>
+    </div>
+
+    <br>
+    <br>
+
+    <script src="./js/register.js"></script>
+
+    <div id = "responseMessage">
+
+    </div>
+    
+</body>
+
+
+<footer>
+    <nav class="footerbar">
+        <div class = "footerbar-content">
+            <div class = "social-media">
+                <p>Social media</p>
+                <ul>
+                    <li><a class="menu-item" href="https://www.facebook.com/"><i class="icon-facebook icon-2x"></i></a></li>
+                    <li><a class="menu-item" href="https://twitter.com/"><i class="icon-twitter icon-2x"></i></a></li>
+                    <li><a class="menu-item" href="https://www.instagram.com/"><i class="icon-instagram icon-2x"></i></a></li>
+                    <li><a class="menu-item" href="https://www.youtube.com/"><i class="icon-youtube icon-2x"></i></a></li>
+                </ul>
+            </div>
+
+            <div class = "fast-acces">
+                <p>Accesează rapid</p>
+                <ul>
+                    <li><a href="./index.html#acasa">Acasă</a></li>
+                    <li><a href="./despre.html">Despre Noi</a></li>
+                    <li><a href="./index.html#oferte">Oferte</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>Universitatea Politehnica din București<br>Facultatea de Electronică, Telecomuncații și Tehnologia Informației - IISC<br>2023</p>
+
+    </nav>
+</footer>
+
+</html>
